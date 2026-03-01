@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stock-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/zhexianren3-bit/stock-api
